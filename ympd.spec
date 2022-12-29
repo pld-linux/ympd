@@ -10,7 +10,7 @@ Source1:	%{name}.service
 Source2:	%{name}.sysconfig
 Patch0:		%{name}-link.patch
 URL:		http://www.ympd.org
-BuildRequires:	cmake
+BuildRequires:	cmake >= 2.6
 BuildRequires:	libmpdclient-devel
 BuildRequires:	openssl-devel
 BuildRequires:	rpmbuild(macros) >= 2.011
