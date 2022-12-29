@@ -1,0 +1,1 @@
+YMPD_OPTIONS="--user nobody --webport 8080 --host localhost"

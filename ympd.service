@@ -1,0 +1,11 @@
+[Unit]
+Description=ympd server daemon
+Requires=network.target local-fs.target
+
+[Service]
+EnvironmentFile=-/etc/sysconfig/ympd
+ExecStart=/usr/bin/ympd $YMPD_OPTIONS
+Type=simple
+
+[Install]
+WantedBy=multi-user.target
